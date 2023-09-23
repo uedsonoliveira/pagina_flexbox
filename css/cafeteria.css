@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*MENU*/
+.menu{
+    background-color: black;
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu h1{
+    color: rgb(255, 255, 255);
+}
+
+.btn-menu a{
+    text-decoration: none;
+    margin-left: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 20%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/*CONTAINER*/
+.container{
+    padding: 80px 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/cafeteria/FundoCafeteria.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h2{
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 50px;
+}
+
+/*CONTAINER LISTA*/
+.container-lista{
+    width: 100%;
+    max-width: 768px;
+}
+
+.container-lista li{
+    color: aliceblue;
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-lista li h3{
+    flex: 0 2 80px;
+}
+
+.container-lista li p{
+    text-align: right;
+    flex: 0 2 100px;
+}
+
+/*LINHA*/
+.linha{
+    height: 1px;
+    background-color: aliceblue;
+    flex: 1 0 auto;
+}
